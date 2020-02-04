@@ -1,0 +1,107 @@
+h1 {
+ color: #5b8C85;
+ font-size: 35px;
+ margin: 50px 0px 40px 550px;
+font-weight: 900px;
+ width: 550px;
+margin: 40px auto;
+font-family: Impact, fantasy;
+text-align: center;
+}
+	
+h2 {
+ffont-family: 'Oswald', sans-serif;
+ color: #73ADC8;
+	font-size: 30px;
+}
+body {   
+font-family: 'Muli', sans-serif;
+	}
+
+#intro {
+  width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 5px 0px 20px 10px;
+	border: 2px solid #73ADC8;
+}
+
+#banner 
+{
+	border: 2px dotted #73ADC8;
+	border-radius: 5px; 
+}
+
+.container 
+{
+  width: 700px;
+margin: 40px auto;
+
+}
+
+.card-white
+{
+background-color: #E0F8F7;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.btn
+{
+background-color: #086A87;
+color: white;
+margin: 40px auto;
+padding: 4px 15px;
+border-radius: 4px;
+}
+
+.btn:hover {
+background-color: #08088A;
+color: #EFFBFB;
+}
+
+.list-inline  {
+list-style: none;
+padding-left: 0px; 
+}
+
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+
+.list-inline i {
+font-size: 50px;
+color: rgd(230, 230, 230)
+}
+
+.list-inline i:hover {
+color: #08088A;
+}
+
+a {
+text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
